@@ -113,10 +113,60 @@ footer {
   text-align: center;
 }
 
-
 /* ===== 6. Accessibility ===== */
 a:focus,
 button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
+
+/* ===== Place Cards ===== */
+
+.place-card {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  border-left: 4px solid var(--brand);
+  margin-bottom: 20px;
+}
+
+.place-card h2,
+.place-card h3 {
+  font-size: 20px;
+  color: var(--brand);
+}
+
+/* ===== Contact Form ===== */
+
+fieldset {
+  padding: 20px;
+  border-radius: 8px;
+}
+
+legend {
+  color: var(--brand);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input,
+textarea {
+  padding: 10px;
+}
+
+button[type="submit"] {
+  background: var(--brand);
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* ===== Focus State ===== */
+
 input:focus,
 textarea:focus,
 select:focus {
