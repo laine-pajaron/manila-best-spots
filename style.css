@@ -139,6 +139,16 @@ select:focus {
   color: var(--brand);
 }
 
+.place-card img {
+    width: 100%;
+    max-width: 500px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    margin: 15px auto;
+    border-radius: 8px;
+}
+
 /* ===== Contact Form ===== */
 
 fieldset {
