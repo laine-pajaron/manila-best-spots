@@ -43,6 +43,17 @@ header {
   padding: 20px;
 }
 
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
 nav {
   background: var(--ink);
 }
@@ -54,15 +65,10 @@ nav ul {
   text-align: center;
 }
 
-nav li {
-  display: inline-block;
-}
-
 nav a {
   color: white;
   text-decoration: none;
   padding: 10px 15px;
-  display: inline-block;
 }
 
 nav a:hover {
