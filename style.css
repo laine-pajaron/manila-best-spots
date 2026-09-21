@@ -140,12 +140,19 @@ select:focus {
 
 /* ===== Place Cards ===== */
 
+.place-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
 .place-card {
   background: white;
   border-radius: 8px;
   padding: 16px;
   border-left: 4px solid var(--brand);
   margin-bottom: 20px;
+   flex: 1 1 240px;
 }
 
 .place-card h2,
