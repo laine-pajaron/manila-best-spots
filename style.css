@@ -240,4 +240,8 @@ footer {
             "side main"
             "foot foot";
     }
+
+    .place-card {
+        width: 100%;
+    }
 }
